@@ -18,9 +18,9 @@ If you haven't setup your workspace yet, then here are the instructions:
 5. Install EGit
 6. Restart Eclipse
 7. Go to the arrow next to Google icon in your toolbar and find _New Web Application Project_
-⋅⋅* In the _Project Name_ type: SST-Computer-Club
-⋅⋅* In the _Package Name_ type: club.sstcomputer.web
-⋅⋅* Deselect GWT (Google Web Toolkit)
+  * In the _Project Name_ type: SST-Computer-Club
+  * In the _Package Name_ type: club.sstcomputer.web
+  * Deselect GWT (Google Web Toolkit)
 8. Right-click the project in the _Project Explorer_ and click _Properties_
 9. Go to **Google > App Engine**
 10. Type in _sst-computer-club_ for Application ID
