@@ -7,7 +7,7 @@ If you haven't setup your workspace yet, then here are the instructions:
 ### Environment requirements:
 * [Java Development Kit 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) (cause GAE uses 7 server side)
 * Git ([**Windows**](http://git-scm.com/download/win), **GNU/Linux**: Open a terminal and run: _sudo apt-get install git_ or the equivalent for your distribution, [**Mac OS X**](http://git-scm.com/download/mac))
-* This IDE ([Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
+* This IDE ([Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2))
 * A [GitHub account](https://github.com/join), and a [Google account](https://accounts.google.com/SignUp)
 
 ### Eclipse:
