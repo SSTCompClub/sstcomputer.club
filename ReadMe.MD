@@ -7,7 +7,7 @@ If you haven't setup your workspace yet, then here are the instructions:
 ### Environment requirements:
 * [Java Development Kit 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) (cause GAE uses 7 server side)
 * Git ([**Windows**](http://git-scm.com/download/win), **GNU/Linux**: Open a terminal and run: _sudo apt-get install git_ or the equivalent for your distribution, [**Mac OS X**](http://git-scm.com/download/mac))
-* An IDE ([Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2), [Netbeans (Java EE)](https://netbeans.org/downloads/))
+* This IDE ([Eclipse (Java EE)](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/lunasr2)
 * A [GitHub account](https://github.com/join), and a [Google account](https://accounts.google.com/SignUp)
 
 ### Eclipse:
@@ -27,7 +27,8 @@ If you haven't setup your workspace yet, then here are the instructions:
 11. Read all of [this](http://wiki.eclipse.org/EGit/User_Guide)
 12. Fetch the files from this repository
 
-### Netbeans (instructions coming sometime soon):
+##### Notice:
+Netbeans is not to be supported for one reason, which is the difference in structure. Google made GAE for Eclipse, and does make it easier for all users to use, unlike Netbeans which is not officially supported and requires you to already have a background with GAE. Now when it comes to Intellij IDEA, well that's pay to use for the whole package, so no Java EE and any of that giz.
 
 If you have permission issues or need to be added to anything, then send an e-mail to: _sstcompclub@gmail.com_
 All there really is needed for developers is viewing access to appspot to be able to debug servlet issues, and access to the Git repository
