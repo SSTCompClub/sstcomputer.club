@@ -27,6 +27,7 @@ If you haven't setup your workspace yet, then here are the instructions:
 11. Read all of [this](http://wiki.eclipse.org/EGit/User_Guide)
 12. Fetch the files from this repository
 
+
 ##### Notice:
 Netbeans is not to be supported for one reason, which is the difference in structure. Google made GAE for Eclipse, and does make it easier for all users to use, unlike Netbeans which is not officially supported and requires you to already have a background with GAE. Now when it comes to Intellij IDEA, well that's pay to use for the whole package, so no Java EE and any of that giz.
 
