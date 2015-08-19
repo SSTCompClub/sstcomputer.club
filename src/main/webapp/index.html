@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>SST Computer Club</title>
+
+        <!-- Website icon -->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-128x128.png" sizes="128x128">
+        <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196">
+
+        <!-- CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+
+        <!-- JavaScript -->
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/defaults.js" type="text/javascript"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Navigation -->
+        <div id="navigation-bar"></div>
+
+        <!-- Header Carousel -->
+        <header id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="fill" style="background-image:url('img/SecondYear.png');"></div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image:url('img/StudentConnect.png');"></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+        </header>
+
+        <!-- Page Content -->
+        <div class="container">
+
+                    <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">News feed</h1>
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- Blog Post Row -->
+            <!-- <div id="newsFeed"></div> -->
+            
+            <!--REMOVE--------------------------------------------------------->
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <p>July 18, 2015</p>
+                </div>
+                <div class="col-md-5">
+                    <a href=""> <!-- Link to blog post -->
+                        <img class="img-responsive img-hover" src="https://cdn.tutsplus.com/wp/uploads/legacy/129_ChildThemeVideo/Loopy%20Screens/Step_04.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <h3>
+                        <a href="">The start of our own website</a> <!-- Link to blog post -->
+                    </h3>
+                    <p>by <a href="#">Jasper C.</a>
+                    </p>
+                    <p>Greetings everyone.</p>
+                    <p>For everything we do, we have a purpose behind it for why we do it. Today our purpose is to create a central point for our club, where we all can see what's
+                    going on and has been planned, as well to store files for projects and competitions we may be doing, then we have who we are and our history.</p>
+                    <p>It has been a great pleasure working with all of you. Pass on the knowledge, and may our future generations master technology even better than us. </p>
+                    <p>We have also uploaded the code of website on <a href="https://github.com/SSTCompClub/sstcomputer.club">GitHub</a>. What we have right now is what we'll 
+                    use as our starting point, and from there on we shall continue to complete this website.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+            <!--REMOVE--------------------------------------------------------->
+
+            <!-- Pager -->
+            <div class="row">
+                <ul class="pager">
+                    <li class="previous"><a onclick="previousPage()">&larr; Older</a>
+                    </li>
+                    <li class="next"><a onclick="nextPage()">Newer &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.row -->
+
+            <hr>
+
+            <!-- Footer -->
+            <footer style="display: -webkit-box;"></footer>
+
+        </div>
+        <!-- /.container -->
+
+        <!-- Script to Activate the Carousel -->
+        <script>
+            initDefaults();
+            //getNews(0);
+            
+            $('.carousel').carousel({
+                interval: 10000 //10 seconds
+            });
+            
+            function getNews(page) {
+                var json = {};
+                json.request = "get";
+                json.page = page;
+                
+                var content = JSON.stringify(json);
+
+                var xmlhttp = new XMLHttpRequest();
+
+                xmlhttp.onreadystatechange = function() {
+                    if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                        document.getElementById('newsFeed').innerHTML = xmlhttp.responseText;
+                        console.log(xmlhttp.responseText);
+                    }
+
+                    if (xmlhttp.status === 500) {
+                        document.getElementById('newsFeed').innerHTML = "<p>Error 500. An internal server error has occured. Can't handle request.</p>";
+                    }
+                };
+
+                xmlhttp.open("POST", "/news", true);
+                xmlhttp.send(content);
+            }
+            
+            function nextPage() {
+                alert("function \"nextPage\" hasn't been implemented client side nor server side.");
+            }
+            
+            function previousPage() {
+                alert("function \"previousPage\" hasn't been implemented client side nor server side.");
+            }
+        </script>
+    </body>
+</html>

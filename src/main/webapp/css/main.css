@@ -15,6 +15,29 @@ body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+button {
+    padding: 5px 14px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #337ab7;
+}
+
+button:hover {
+    color: #1F496D;
+    text-decoration: underline;
+}
+
+input, textarea {
+    margin: 10px;
+    padding: 3px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+}
+
 .img-portfolio {
     margin-bottom: 30px;
 }
@@ -48,23 +71,22 @@ header.carousel .fill {
     font-size: 100px;
 }
 
-/* Pricing Page Styles */
+/* File Storage styles */
 
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
+.fileUpload {
+    position: relative;
+    overflow: hidden;
 }
-
-.price sup {
-    top: -20px;
-    left: 2px;
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
     font-size: 20px;
-}
-
-.period {
-    display: block;
-    font-style: italic;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
 }
 
 /* Footer Styles */
