@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>SST Computer Club - Storage</title>
+        <title>X_X Website is broken</title>
 
         <!-- Website icon -->
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
@@ -23,7 +23,6 @@
         <link rel="icon" type="image/png" href="img/favicon/favicon-196x196.png" sizes="196x196">
 
         <!-- CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
 
@@ -31,7 +30,7 @@
         <script src="js/jquery.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/defaults.js" type="text/javascript"></script>
-
+        
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -41,48 +40,26 @@
         <!-- Navigation -->
         <div id="navigation-bar"></div>
 
-        <!-- Page Content -->
-        <div class="container">
-
-            <!-- Page Heading/Breadcrumbs -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Storage</h1>
-                    <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a>
-                        </li>
-                        <li class="active">Storage</li>
-                    </ol>
-                </div>
+        <!-- Page Contents -->
+        <div id="page-content">
+            <div class="container">
+                <h1>Hey there!</h1>
+                <p>It looks like this website is not working right now.</p>
+                <p>You either have JavaScript disabled or this website could be down or under construction.</p>
+                <p>Please make sure that JavaScript is enabled, else please come check later.</p>
+                <hr>
             </div>
-            <!-- /.row -->
-
-            <!-- Page Content -->
-            <h3 style="text-align: center"><b>TODO:</b> Work on servlet and graphical interface.</h3>
-            <h5 style="text-align: center">We need to decide on if we want to spend a little bit of our fund money on a DNS, before singing up our website for Google Apps.</h5>
-            
-            <!--<p>Max upload size of 32 MB</p>-->
-            <input id="uploadFile" placeholder="Choose File" disabled="disabled" />
-            <div class="fileUpload btn btn-primary">
-                <span>Upload</span>
-                <input id="uploadButton"  type="file" class="upload" />
-            </div>
-            
-            <hr>
-
-            <!-- Footer -->
-            <footer style="display: -webkit-box;"></footer>
-
         </div>
+        
+        <!-- Footer -->
+        <footer class="container" style="margin-top: 20px;">
+            <a href="javascript:contactPage()" style="padding: 5px 14px; background-color: #eee; border: 1px solid #ddd; border-radius: 15px; margin-right: 5px; margin-left: 5px;">Contact Us</a>
+            <p style="width: 70%; float: right;"> Not <b>Copyright &copy; SST Computer Club 2015</b>. All rights reserved.</p>
+        </footer>
         <!-- /.container -->
-
+        
         <script>
             initDefaults();
-            setActive("storage");
-            
-            document.getElementById("uploadButton").onchange = function () {
-                document.getElementById("uploadFile").value = this.value;
-            };
         </script>
     </body>
 </html>

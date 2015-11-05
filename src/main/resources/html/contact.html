@@ -1,0 +1,43 @@
+{
+    "title":"SST Computer Club - Contact",
+    "script":["./js/contact.js","https://www.google.com/recaptcha/api.js"]
+}
+<!-- /.end -->
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Contact</h1>
+            <ol class="breadcrumb">
+                <li><a href="javascript:homePage()">Home</a>
+                </li>
+                <li class="active">Contact</li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <form action="javascript:contact();">
+        <br>
+        <label for="name">Name:</label>
+        <input id="name" required type="text" style="width: 50%;">
+        <br>
+
+        <label for="email">E-Mail:</label>
+        <input id="email" required type="text" style="width: 50%;">
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" required rows="15" style="width: 100%;"></textarea><br>
+        <br>
+
+        <div class="g-recaptcha"  data-sitekey="6Lcw3goTAAAAACq8XvGabfuAk9KjS5kzbzFFDJau" style="padding-left: 10px; margin-top: -10px;"></div>
+        <input type="submit" style="padding-right: 10px;">
+        <label id="error"></label>
+    </form>
+
+    <hr>
+</div>
+<!-- /.container -->

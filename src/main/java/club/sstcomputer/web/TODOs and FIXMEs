@@ -1,0 +1,12 @@
+TODO:
+Inject headers dynamically with JS for their pages
+Home page
+Lan Page video
+About page
+
+Copy originals to original package and remove all white space and comments on official deploy
+
+FIXME:
+A user created 404 error comes up as a 500
+Elements that rely on viewport parameters wont work
+Defaults redirect in Client_Interaction breaks linkings for ME.js

@@ -1,4 +1,4 @@
-package club.sstcomputer.web;
+package club.sstcomputer.web.old;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;

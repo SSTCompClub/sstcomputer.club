@@ -1,4 +1,4 @@
-package club.sstcomputer.web;
+package club.sstcomputer.web.old;
 
 import java.io.IOException;
 import javax.servlet.http.HttpServlet;
